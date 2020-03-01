@@ -12,6 +12,7 @@ public class Main {
     public static void main(String[] args) {
         String line = "";
         try{
+            //The path may required changes if you Forked this project.
             BufferedReader br = new BufferedReader(new FileReader("/Users/ngunguyen/Documents/JavaProjects/DistinctValue/src/com/ngunguyen/distinctvalue/resources/ReadFile"));
             while((line = br.readLine()) != null){
                 removeDuplicates(line);
